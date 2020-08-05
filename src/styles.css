@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: purple;
+}
+
+button {
+  background-color: #007ace;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #5c6ac4;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  border: 2px solid pink;
+  margin-top: 1rem;
+}
